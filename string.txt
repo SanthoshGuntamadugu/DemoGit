@@ -1,0 +1,169 @@
+public class sample{
+public static void main(String[]args)
+{
+int a=14,b=22;
+		System.out.println(a+b);
+		System.out.println(a-b);
+		System.out.println(a*b);
+		System.out.println(a/b);
+		System.out.println(a%b);.
+
+		System.out.println(a>b);
+		System.out.println(a>=b);
+		System.out.println(a<b);
+		System.out.println(a<=b);
+		System.out.println(a==b);
+		System.out.println(a!-b);
+		
+		
+		int i=8,j=5,k=9;
+		if(i>j && i>k)
+		{
+			System.out.println(i+" is Bigger");
+		}
+		
+		System.out.println(true || true);
+		System.out.println(true || false);
+		System.out.println(false || true);
+		System.out.println(false || false);
+    
+    ---------------------------------------------------------------------
+		
+		System.out.println(!true);
+		System.out.println(!false);
+    
+    
+    
+    
+    
+    }
+    }
+    
+    -------------------------------------------------------------
+    int e=5,f=8;
+		e=f;
+		System.out.println(e);
+		System.out.println(f);
+		
+		e+=1;
+		System.out.println(e);
+		
+		e-=1;
+		System.out.println(e);
+		
+		e*=10;
+		System.out.println(e);
+		
+		e/=2;
+		System.out.println(e);
+		
+		e%=2;
+		System.out.println(e);
+    
+    
+  int e=3, int f=7;
+  e=f;
+  System.out.println(e);
+  System.out.println(f);
+  e+=1;
+  System.out.println(e);
+  e-=1;
+  
+ System.out.println(e);
+  e*=5  
+    
+    
+    
+--------------------------------------------
+System.out.println(true?"ok":"Not Ok");
+		System.out.println(false?"ok":"Not Ok");
+		int h=16,g=19;
+		System.out.println(h>g?"Bigger":"smaller");
+		
+		int x=10;
+		x++;
+		System.out.println(x);
+		++x;
+		System.out.println(x);
+		
+		int y=10;
+		y--;
+		System.out.println(y);
+		--y;
+		System.out.println(y);
+    
+    
+    --------------------------------
+    int a=5,b=9,c=20;
+		if(a>b && a>c)
+		{
+			System.out.println(a+" is Bigger");
+		}
+		else if(b>c)
+		{
+			System.out.println(b+" is Bigger");
+		}
+		else
+		{
+			System.out.println(c+" is Bigger");
+		}
+    
+    
+    
+------------------------------------------------------
+Scanner sc=new Scanner(System.in);
+		
+		System.out.println("Enter a value:");
+		int a=sc.nextInt();
+		
+		System.out.println("Enter b value:");
+		int b=sc.nextInt();
+		
+		System.out.println("Enter c value:");
+		int c=sc.nextInt();
+		
+		if(a>b && a>c)
+		{
+			System.out.println(a+" is Bigger");
+		}
+		else if(b>c)
+		{
+			System.out.println(b+" is Bigger");
+		}
+		else
+		{
+			System.out.println(c+" is Bigger");
+		}
+    
+  -------------------------------------------
+    import java.util.Scanner;
+public class ForLoop {
+
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter n value:");
+		int n=sc.nextInt();
+		for(int i=1;i<=n;i++)
+		{
+			System.out.println("Hello");
+		}
+
+	}
+
+}
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

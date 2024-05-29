@@ -1,0 +1,63 @@
+import java.util.*;
+public class Arrays2 
+{
+	public static void main(String[] args)
+  {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter Array Size:");
+		int n=sc.nextInt();
+		
+		String[] courselist=new String[n];
+		
+		//reading array-values
+		for(int i=0;i<courselist.length;i++)
+		{
+			System.out.println("Enter Value For Index-"+i+":");
+			courselist[i]=sc.next();
+		}
+    
+		//printing array-values
+		for(int i=0;i<courselist.length;i++)
+		{
+			System.out.println(courselist[i]);
+		}
+	}
+
+}
+
+-----------------------------------------------------
+class Employee
+{
+	public int Id;
+	public String Name;
+	public String Designation;
+	
+	public void PrintEmployee()
+	{
+		System.out.println(Id+"-"+Name+"-"+Designation);
+	}
+}
+public class ClassObjectDemo {
+
+	public static void main(String[] args) {
+		Employee emp1=new Employee();
+		emp1.Id=9001;
+		emp1.Name="Shivaji";
+		emp1.Designation="Developer";
+		emp1.PrintEmployee();
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
